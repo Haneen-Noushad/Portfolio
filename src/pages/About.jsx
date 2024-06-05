@@ -12,8 +12,12 @@ const  About = () => {
           Haneen</span>
       </h1>
       <div className="mt-2 flex flex-col gap-3 text-slate-500">
-        <p>Computer Science Enginner, specializing in Full Stack Website Developemt 
-          and Software Developemnt through hands on taring and building applications.
+        <p>Enthusiastic and detail-oriented Computer Science Engineer with a keen interest in web development, 
+          software development, and data analysis and visualization. Possessing a solid foundation in HTML5, CSS3, 
+          JavaScript, Node.js, Express.js, Angular, and PHP, with knowledge in SQL databases. Proficient in leveraging 
+          modern web development frameworks to build responsive and dynamic web applications. Skilled in using Power BI to 
+          analyze complex datasets and present clear, actionable insights. I'm excited to use my expertise to support innovative 
+          projects in an efficient manner.
           
         </p>
       </div>
@@ -90,7 +94,7 @@ const  About = () => {
 
         </div>
       </div>
-      <hr className="border-slate-200"/>
+      <hr className="border-slate-500"/>
       <CTA />
       
     </section>

@@ -4,7 +4,7 @@ import { Home,About,Projects,Contact } from './pages';
 
 const App = () => {
   return (
-    <main className='bg-slate-300/20 h-full'>
+    <main className="bg-slate-300/20 h-full" style={{ background: 'linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 80%)' }}>
       <Router>
         <Navbar />
         <Routes>

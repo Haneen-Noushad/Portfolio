@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { emirates,gbt } from "../assets/images";
 import {
     car,
     contact,
@@ -83,57 +83,29 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Intern",
+        company_name: "Global Beam Telecom",
+        icon: gbt,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Jan 2024 - June 2024 ",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Collaborating closely with the marketing team to refresh and enhance the company website using Laravel framework.",
+            "Managing multiple social media accounts for the company, ensuring consistency and engagement across platforms.",
+            "Crafting compelling posts and content tailored to each social media channel to effectively reach and resonate with the target audience.",            
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "HR Intern",
+        company_name: "Emirates Group",
+        icon: emirates,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jun 2022 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Engaging in data analytics within the HR Division to optimize insights.",
+            "Ensuring business continuity by meticulously updating and maintaining the HR database with precise employee data, thereby facilitating smooth operations.",
+            "Providing comprehensive support to the HR team by assisting with a variety of day-to-day tasks to streamline workflows and enhance efficiency.",          
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    },    
 ];
 
 export const socialLinks = [
@@ -193,8 +165,10 @@ export const projects = [
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Snake Game',
+        description: `The Snake game is a classic arcade game where the player controls a snake that moves around a grid, 
+        eating food to grow in length. The primary objective is to consume as much food as possible without running into the walls 
+        or the snake's own body. Each piece of food eaten increases the score by one point.`,
+        link: 'https://haneen-noushad.github.io/SnakeGame/',
     }
 ];
