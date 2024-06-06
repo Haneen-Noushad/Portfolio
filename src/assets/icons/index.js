@@ -26,6 +26,22 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import illustrator from './adobeIllustrator.svg'
+import photoshop from './adobePhotoshop.svg'
+import c from './c.svg'
+import canva from './canva.svg'
+import cPlusPlus from './cPlusPlus.svg'
+import cSharp from './cSharp.svg'
+import java from './java.svg'
+import microsoftExcel from './microsoftExcel.svg'
+import mysql from './mysql.svg'
+import php from './php.svg'
+import powerBI from './powerBi.svg'
+import python from './python.svg'
+import Unity from './Unity.svg'
+
+
+
 
 export {
     css,
@@ -55,5 +71,18 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    photoshop,
+    illustrator,
+    c,
+    canva,
+    cPlusPlus,
+    cSharp,
+    java,
+    microsoftExcel,
+    mysql,
+    php,
+    powerBI,
+    python,
+    Unity
 }

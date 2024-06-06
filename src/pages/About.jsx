@@ -14,7 +14,7 @@ const  About = () => {
       <div className="mt-2 flex flex-col gap-3 text-slate-500">
         <p>Enthusiastic and detail-oriented Computer Science Engineer with a keen interest in web development, 
           software development, and data analysis and visualization. Possessing a solid foundation in HTML5, CSS3, 
-          JavaScript, Node.js, Express.js, Angular, and PHP, with knowledge in SQL databases. Proficient in leveraging 
+          JavaScript, Node.js, Express.js, and PHP, with knowledge in SQL databases. Proficient in leveraging 
           modern web development frameworks to build responsive and dynamic web applications. Skilled in using Power BI to 
           analyze complex datasets and present clear, actionable insights. I'm excited to use my expertise to support innovative 
           projects in an efficient manner.
@@ -23,17 +23,23 @@ const  About = () => {
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
+        
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill)=>(
-            <div className="block-container w-20 h-20">
+            <div key={skill.name} className="block-container w-20 h-20">
+              
               <div className="btn-back rounded-xl" />
-              <div className="btn-front rounded-xl flex justify-center items-center">
+              <div className="btn-front rounded-xl flex justify-center items-center flex-col">
+                
                 <img  
                   src={skill.imageUrl}
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"
                 />  
+                 <p className="font-poppins font-extralight text-xs mt-1">{skill.name}</p>
+                
               </div>
+             
             </div>
 
           ))}
@@ -41,7 +47,7 @@ const  About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">WoRk Experience</h3>
+        <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-2 flex flex-col gap-3 text-slate-500">
           <p>
             I've worked with various companies and worked under many people.

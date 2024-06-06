@@ -1,5 +1,7 @@
 import { emirates,gbt } from "../assets/images";
 import {
+    c,
+    cPlusPlus,
     car,
     contact,
     css,
@@ -8,14 +10,22 @@ import {
     git,
     github,
     html,
+    illustrator,
+    java,
     javascript,
     linkedin,
+    microsoftExcel,
     mongodb,
     motion,
     mui,
+    mysql,
     nextjs,
     nodejs,
+    photoshop,
+    php,
+    powerBI,
     pricewise,
+    python,
     react,
     redux,
     sass,
@@ -23,7 +33,8 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    
 } from "../assets/icons";
 
 export const skills = [
@@ -42,7 +53,39 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     }, 
+    {
+        imageUrl: nodejs,
+        name: "Node js",
+        type: "Frontend",
+    },
     
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },   
+    
+   
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: php,
+        name: "Php",
+        type: "Backend",
+    },
+    {
+        imageUrl: mysql,
+        name: "mySQL",
+        type: "Database",
+    },
     {
         imageUrl: git,
         name: "Git",
@@ -54,31 +97,46 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: java,
+        name: "Java",
+        type: "programming",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "programming",
+    },
+    {
+        imageUrl: cPlusPlus,
+        name: "C++",
+        type: "programming",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "programming",
+    },
+    {
+        imageUrl: powerBI,
+        name: "Power BI",
+        type: "Data",
+    },
+    {
+        imageUrl: microsoftExcel,
+        name: "Excel",
+        type: "Data",
+    },
+    {
+        imageUrl: photoshop,
+        name: "Photoshop",
+        type: "designing",
+    },
+    {
+        imageUrl: illustrator,
+        name: "Illustrator",
+        type: "designing",
     },   
     
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
 ];
 
 export const experiences = [
@@ -89,9 +147,10 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "Jan 2024 - June 2024 ",
         points: [
-            "Collaborating closely with the marketing team to refresh and enhance the company website using Laravel framework.",
-            "Managing multiple social media accounts for the company, ensuring consistency and engagement across platforms.",
-            "Crafting compelling posts and content tailored to each social media channel to effectively reach and resonate with the target audience.",            
+            "Collaborated closely with the marketing team to refresh and enhance the company website using the Laravel framework. ",
+            "Made significant improvements in website by adding images, and formatting HTML and CSS to ensure a seamless user experience.",
+            "Managed multiple social media accounts, with a focus on LinkedIn, ensuring brand consistency and high engagement across platforms.",
+            "Created and curated compelling content for social media channels, effectively targeting and resonating with the audience to promote satellite and radio products.",            
         ],
     },
     {
@@ -101,7 +160,8 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Jun 2022 - Aug 2022",
         points: [
-            "Engaging in data analytics within the HR Division to optimize insights.",
+            "Engaged in data analytics within the HR Division to optimize insights and improve decision-making processes.",
+            "Developed interactive dashboards and visual reports using Power BI to present data-driven insights.",
             "Ensuring business continuity by meticulously updating and maintaining the HR database with precise employee data, thereby facilitating smooth operations.",
             "Providing comprehensive support to the HR team by assisting with a variety of day-to-day tasks to streamline workflows and enhance efficiency.",          
         ],
@@ -130,37 +190,39 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'AGROS Website',
+        description: `
+        Orchestrated the complete design and development of a functional website from conception to execution, ensuring seamless user experience and intuitive navigation.
+        Empowering farm owners by implementing predictive analytics tools to forecast crop yield and revenue generation`,
+        link: 'https://atos-agros.web.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Image Steganography',
+        description: 'Developed an image steganography system to conceal text, images, or videos within a cover image, utilizing AES encryption for enhanced data security.',
+        link: '',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Rent A Car Application',
+        description: 'Developed a comprehensive Java GUI-based car rental application encompassing rental and return processes, customer and admin authentication, rental price calculation, and data storage via file handling.',
+        link: 'https://github.com/Haneen-Noushad/RentACar',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Credit Card Fraud Detection',
+        description: 'Addressed class imbalance through advanced techniques to enhance robustness in model performance, refined training models to suit project requirements, and conducted thorough model testing utilizing diverse classification techniques.',
+        link: '',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: `That's Cube Game`,
+        description: 'Developed the Cube Game using Unity and C#, focusing on seamless gameplay and efficiency, while implementing techniques to ensure balanced difficulty levels for a beginner-friendly and enjoyable experience.',
+        link: '',
     },
     {
         iconUrl: summiz,
